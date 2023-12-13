@@ -1,0 +1,55 @@
+
+body {
+    background-color: rgb(52, 52, 235);
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    width: max-content;
+    animation: fadeIn 1s ease-in-out; 
+}
+
+
+.input {
+    margin-left: 10px;
+}
+
+.input-text {
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    color: white;
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; 
+}
+
+
+.output {
+    margin-left: 10px;
+}
+
+.output-text {
+    height: 450px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    margin: 10px 50px;
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; 
+}
+
+
+.out {
+    margin-left: 50px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
